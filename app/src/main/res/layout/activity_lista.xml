@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aulas"
+        android:text="Aulas"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/filterbtn"
+        android:text="Filtrar"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/aulas"
+        android:layout_alignLeft="@+id/aulas"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"/>
+
+    <TextView
+        android:id="@+id/aulasurf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filterbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Aula SUP 60min"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aulapilates"
+        android:text="Aula Pilates 45min"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/aulasurf"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aulacrossfit"
+        android:text="WOD 60min"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/aulapilates"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aluguer"
+        android:text="Aluguer"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/aulacrossfit"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/filterbtn2"
+        android:text="Filtrar"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/aluguer"
+        android:layout_alignLeft="@+id/aluguer"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aluguerfutebol"
+        android:text="Futebol 11 45min"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/filterbtn2"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aluguerpaddle"
+        android:text="Paddel 45min"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/aluguerfutebol"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aluguernatação"
+        android:text="Natação Livre 60min"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/aluguerpaddle"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedule"
+        android:text="Ver horários"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/filterbtn"
+        android:layout_alignRight="@+id/aulas"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"
+        android:padding="15dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/schedule2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schedule"
+        android:layout_alignRight="@+id/aulas"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="Ver horários"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedule3"
+        android:text="Ver horários"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/schedule2"
+        android:layout_alignRight="@+id/aulas"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"
+        android:padding="15dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedule4"
+        android:text="Ver horários"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/filterbtn2"
+        android:layout_alignRight="@+id/aulas"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"
+        android:padding="15dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedule5"
+        android:text="Ver horários"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/schedule4"
+        android:layout_alignRight="@+id/aulas"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"
+        android:padding="15dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedule6"
+        android:text="Ver horários"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/schedule5"
+        android:layout_alignRight="@+id/aulas"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"
+        android:padding="15dp"/>
+
+
+</RelativeLayout>

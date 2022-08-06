@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ASAP</string>
+    <string name="invalid_name">Please Enter Valid Username</string>
+    <string name="invalid_phone">Please Enter a Valid Number</string>
+    <string name="invalid_email">Please Enter a Valid Email</string>
+    <string name="invalid_password">Please Enter a 6 digit password</string>
+    <string name="invalid_repassword">Password does not match</string>
+</resources>

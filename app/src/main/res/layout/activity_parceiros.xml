@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/parceiro"
+    tools:context=".parceiros">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parceiros"
+        android:text="Parceiros"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parceirosdesc"
+        android:text="Escola de Surf - Sharks"
+        android:textColor="@color/white"
+        android:layout_below="@+id/parceiros"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parceirosdesc2"
+        android:text="Aulas e vagas:"
+        android:textColor="@color/white"
+        android:layout_below="@+id/parceirosdesc"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parceirosdesc3"
+        android:text="SUP 60min                              10 vagas/aula"
+        android:textColor="@color/white"
+        android:layout_below="@+id/parceirosdesc2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parceirosdesc4"
+        android:text="Surf 60min                             15 vagas/aula"
+        android:textColor="@color/white"
+        android:layout_below="@+id/parceirosdesc3"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parceirosdesc5"
+        android:text="Bodyboard 60min                   8 vagas/aula"
+        android:textColor="@color/white"
+        android:layout_below="@+id/parceirosdesc4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parceirosdesc6"
+        android:text="Prancha surf 60min 5         pranchas/hora"
+        android:textColor="@color/white"
+        android:layout_below="@+id/parceirosdesc5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"/>
+
+</RelativeLayout>

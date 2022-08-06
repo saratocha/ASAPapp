@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="// ASAP "
+        android:textColor="@color/white"
+        android:textSize="80dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_margin="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clientes"
+        android:text="Clientes "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_below="@+id/welcome"
+        android:layout_alignLeft="@+id/welcome"
+        android:layout_margin="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parceiros"
+        android:text="Parceiros "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_below="@+id/welcome"
+        android:gravity="right"
+        android:layout_margin="25dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupbtn"
+        android:text="Registar"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/signinbtn"
+        android:layout_alignLeft="@+id/clientes"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signinbtn"
+        android:text="  Log in   "
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/clientes"
+        android:layout_alignLeft="@+id/clientes"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupbtnp"
+        android:text="Parcerias"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/signinbtnp"
+        android:layout_alignRight="@+id/parceiros"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signinbtnp"
+        android:text="  Log in   "
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/parceiros"
+        android:layout_alignRight="@+id/parceiros"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"/>
+
+
+</RelativeLayout>

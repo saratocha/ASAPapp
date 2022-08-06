@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sup"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/marcado"
+        android:text="Marcado!"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="55dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descricao"
+        android:text="A sua aula foi marcada com sucesso!"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_below="@+id/marcado"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_margin="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descricao2"
+        android:text="Apresentar o QRCode e treinar"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/descricao"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_margin="25dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/socialicons"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_margin="70dp"
+            android:src="@drawable/qrcode">
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

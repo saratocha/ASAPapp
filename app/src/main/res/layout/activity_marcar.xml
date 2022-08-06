@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/surf"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/booking"
+        android:text="Marcação"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/idplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/booking"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Escola de Surf - Sharks"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idlocalização"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idplace"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Localização"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/idlocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idlocalização"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Praia do Castelo - Costa da Caparica"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/idmodalidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idlocal"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Aula de SUP 60min"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idhorasbtn"
+        android:text=" Calendário "
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/idmodalidade"
+        android:layout_alignLeft="@+id/idlocal"
+        android:backgroundTint="@color/white"
+        android:layout_margin="0dp"/>
+
+    <TextView
+        android:id="@+id/iddias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idhorasbtn"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="5 de Agosto de 2022 - 2ªFeira"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedulebtn"
+        android:text=" 8:30 AM "
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/iddias"
+        android:layout_alignLeft="@+id/idlocal"
+        android:backgroundTint="@color/black"
+        android:layout_margin="0dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedulebtn2"
+        android:text=" 9:30 AM "
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/schedulebtn"
+        android:layout_alignLeft="@+id/idlocal"
+        android:backgroundTint="@color/black"
+        android:layout_margin="0dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedulebtn3"
+        android:text="11:00 AM"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/schedulebtn2"
+        android:layout_alignLeft="@+id/idlocal"
+        android:backgroundTint="@color/black"
+        android:layout_margin="0dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedulebtn4"
+        android:text="12:00 pm"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/schedulebtn3"
+        android:layout_alignLeft="@+id/idlocal"
+        android:backgroundTint="@color/black"
+        android:layout_margin="0dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedulebtn5"
+        android:text=" 1:00 pm "
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/schedulebtn4"
+        android:layout_alignLeft="@+id/idlocal"
+        android:backgroundTint="@color/black"
+        android:layout_margin="0dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedulebtn6"
+        android:text=" 4:30 pm "
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/schedulebtn5"
+        android:layout_alignLeft="@+id/idlocal"
+        android:backgroundTint="@color/black"
+        android:layout_margin="0dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedulebtn7"
+        android:text=" 5:30 pm "
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/schedulebtn6"
+        android:layout_alignLeft="@+id/idlocal"
+        android:backgroundTint="@color/black"
+        android:layout_margin="0dp"/>
+
+</RelativeLayout>
